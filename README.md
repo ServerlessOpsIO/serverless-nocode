@@ -19,7 +19,7 @@ serverless plugin install -n serverless-nocode
 
 ```yaml
 plugins:
-  - serverless-cloudformation-parameter-setter
+  - serverless-nocode
 ```
 
 ## Configuration
