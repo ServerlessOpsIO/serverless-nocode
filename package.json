@@ -1,0 +1,22 @@
+{
+  "name": "serverless-nocode",
+  "description": "Deploys nocode via Serverless Framework",
+  "version": "0.0.1",
+  "author": "ServerlessOps",
+  "license": "MIT",
+  "repository": {
+    "git": "https://github.com/ServerlessOpsIO/serverless-nocode"
+  },
+  "bugs": {
+    "url": "https://github.com/ServerlessOpsIO/serverless-nocode/issues"
+  },
+  "homepage": "https://github.com/ServerlessOpsIO/serverless-nocode",
+  "keywords": [
+    "nocode",
+    "serverless",
+    "serverless plugin",
+    "serverless nocode",
+    "aws"
+  ],
+  "main": "index.js"
+}
