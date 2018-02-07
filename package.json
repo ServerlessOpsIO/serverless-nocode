@@ -1,7 +1,7 @@
 {
   "name": "serverless-nocode",
   "description": "Deploys nocode via Serverless Framework",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ServerlessOps",
   "license": "MIT",
   "repository": {
