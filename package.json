@@ -5,7 +5,8 @@
   "author": "ServerlessOps",
   "license": "MIT",
   "repository": {
-    "git": "https://github.com/ServerlessOpsIO/serverless-nocode"
+    "type": "git",
+    "url": "https://github.com/ServerlessOpsIO/serverless-nocode"
   },
   "bugs": {
     "url": "https://github.com/ServerlessOpsIO/serverless-nocode/issues"
