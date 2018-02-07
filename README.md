@@ -29,6 +29,6 @@ None
 #### CLI options
 None
 
-#### serverless.tml
+#### serverless.yml
 Installing plugin is sufficient. All functionality is taken care of automatically.
 
