@@ -14,23 +14,13 @@ class NoCodePlugin {
     const template = this.serverless.service.provider.compiledCloudFormationTemplate;
 
     var deploymentBucket = template.Resources.ServerlessDeploymentBucket;
+    var deploymentBucketOutput = template.Outputs.ServerlessDeploymentBucketName;
     var resources = {
-      "NoCode" : {
-         "Type": "Custom::NoCode",
-         "Version" : "1.0.0",
-         "Properties": {
-           "ServiceToken": "arn:aws:lambda:us-east-1:349603509961:function:aws-nocode-tracker-prime-NoCodeTracker"
-        }
-      },
       "ServerlessDeploymentBucket": deploymentBucket
     };
 
     var outputs = {
-      "ServerlessDeploymentBucketName": {
-        "Value": {
-          "Ref": "ServerlessDeploymentBucket"
-        }
-      }
+      "ServerlessDeploymentBucketName": deploymentBucketOutput
     };
 
     template.Resources = resources;
